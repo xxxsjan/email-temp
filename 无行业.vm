@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-  <table width="100%" bgcolor="#F0F0F0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<table width="100%" bgcolor="#F0F0F0">
     <tr>
       <td></td>
     </tr>
@@ -104,17 +96,7 @@
                     ${productName}
                   </td>
                 </tr>
-                <!-- 行业权限 -->
-                <tr>
-                  <td bgcolor="#FFFFFF" align="left"
-                    style="background-color: #F5F6F7;color: #2C3E50;font-size: 14px;width: 154px;text-align: center;">
-                    行业权限
-                  </td>
-                  <td bgcolor="#FFFFFF" align="left" style="color:#2C3E50;font-size: 14px;">
-                    ${industriesNames}
-                  </td>
-                </tr>
-                <!-- 行业权限 -->
+                
                 <tr>
                   <td bgcolor="#FFFFFF" align="left"
                     style="background-color: #F5F6F7;color: #2C3E50;font-size: 14px;width: 154px;text-align: center;">
@@ -531,6 +513,3 @@
   </td>
   </tr>
   </table>
-</body>
-
-</html>
