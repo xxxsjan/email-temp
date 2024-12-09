@@ -18,8 +18,8 @@ fs.readFile('./bak3.html', 'utf8', (err, data) => {
 ${res.trim()}
 `
 
-    fs.writeFileSync('./有行业.vm', res)
+    fs.writeFileSync(`./output/${Date.now()}-有行业.vm`, res)
     res = res.replace(/<!-- 行业权限 -->[\s\S]*?<!-- 行业权限 -->/, '');
 
-    fs.writeFileSync('./无行业.vm', res)
+    fs.writeFileSync(`./output/${Date.now()}-无行业.vm`, res)
 })
